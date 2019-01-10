@@ -44,7 +44,7 @@ public class Register extends Activity implements View.OnClickListener {
         final String username= etUser.getText().toString();
         final String password= etPassword.getText().toString();
         final int age= Integer.parseInt(etAge.getText().toString());
-
+//Se lleva a cabo el request en la Base de datos
         Response.Listener<String> responseListener= new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
