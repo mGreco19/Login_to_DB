@@ -32,7 +32,6 @@ public class Register extends Activity implements View.OnClickListener {
         etAge= findViewById(R.id.ediT_age);
 
         btnRegister= findViewById(R.id.btn_register);
-
         btnRegister.setOnClickListener(this);
 
     }
@@ -66,7 +65,7 @@ public class Register extends Activity implements View.OnClickListener {
             }
         };
 
-        RegisterRequest registerRequest=new RegisterRequest(name, username, age, password, responseListener);
+        RegisterRequest registerRequest=new RegisterRequest(name, username, password, age, responseListener);
         RequestQueue queue= Volley.newRequestQueue(Register.this);
         queue.add(registerRequest);
     }
