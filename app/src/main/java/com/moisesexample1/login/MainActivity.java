@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-//Esto es una prueba para ver si logro hacer commit, soy tony.
+//Esto es una prueba para ver si logro hacer commit, soy tony. Ok listo chulo
    TextView tv_register;
 
     @Override
